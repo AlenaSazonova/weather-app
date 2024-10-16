@@ -1,11 +1,18 @@
 import './App.css';
+import GlobalStyle from './GlobalStyles';
+import ProjectTitle from '../src/components/titleWeather/TitleWeather';
+import WeatherSearch from '../src/components/weatherSearch/WeatherSearch';
+
+
 
 function App() {
-  return (
-    <div>
-        Weather App
-    </div>
-  );
+    return (
+        <>
+            <GlobalStyle />
+            <ProjectTitle />
+            <WeatherSearch />
+        </>
+    );
 }
 
 export default App;
